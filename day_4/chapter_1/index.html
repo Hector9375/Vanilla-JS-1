@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/day_4/script2.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+let second = 1;
+let timerid;
+timerid = setInterval(function(){
+    console.log(second++)
+        if(second > 60){
+        clearInterval(timerid)
+    }
+},1000);
+let timer = setTimeout( function (){
+console.log('뿅')
+},61000);
