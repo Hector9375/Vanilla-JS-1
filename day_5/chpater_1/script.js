@@ -1,7 +1,7 @@
 // 자바스크립트 객체
 let me = {
     firstName: 'Ahn',
-    lastName: 'Sungmin',
+    lastName: 'Hector',
     age: 30,
     getFullName : function (){
         // this가 정의 되는 시점은 호출될때
@@ -11,7 +11,7 @@ let me = {
 
 let you = {
     firstName: 'Park',
-    lastName: 'Nuri',
+    lastName: 'Nullzing',
     age: 31,
     getFullName : () => {
         // this가 정의 되는 시점은 함수 내부

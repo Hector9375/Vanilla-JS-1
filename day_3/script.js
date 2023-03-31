@@ -1,15 +1,15 @@
 // 조건문 (if문 switch문)
 
-let student = {name:"안성민",blood:"B",age: 30};
+let student = {name:"Hector",blood:"B",age: 30};
 
   if(student,blood==="A"){
-     console.log('1분단');
+     console.log('1 division');
  }else if(student,blood==="B"){
-     console.log('2분단');
+     console.log('2 division');
  }else if(student,blood==="0"){
-     console.log('3분단');
+     console.log('3 division');
  }else{
-     console.log('4분단');
+     console.log('4 division');
  }
 
 //오늘의 문제
@@ -18,16 +18,16 @@ let student = {name:"안성민",blood:"B",age: 30};
 
 switch(student,blood){
     case "A":
-        console.log('1분단')
+        console.log('1 division')
         break;
     case "B":
-        console.log('2분단')
+        console.log('2 division')
         break;
     case "C":
-        console.log('3분단')
+        console.log('3 division')
         break;
     default:
-        console.log('4분단')
+        console.log('4 division')
 }
 
 
@@ -54,29 +54,29 @@ switch (month){
 console.log('last day ${lastDay}');
 
 if(student.age >= 30){
-    console.log('학생인척 하지마');
+    console.log('Don`t pretend to be a student');
 }else{
-    console.log('삑!학생입니다.');
+    console.log('Beep! a student.');
 }
 // // 3항 연산자
 // let str = true? '참' : '거짓'; //
 
-let str = new Date().getFullYear()%2===0 ? (true? 'a' : 'b') :'홀수 해' ;
+let str = new Date().getFullYear()%2===0 ? (true? 'a' : 'b') :'It`s an odd number' ;
 
 console.log(str);
 
-//let student = {name:"안성민",blood:"B",age: 30};//
+//let student = {name:"Hector",blood:"B",age: 30};//
 function setClass(bloodType){
     let result = '';
     switch(bloofType){
     case "A":
-        return '1분단';
+        return '1 division';
     case "B":
-        return'2분단';
+        return'2 division';
     case "O":
-       return '3분단';
+       return '3 division';
     case "AB":
-        return'4분단';
+        return'4 division';
 }
 }
     function p(str){

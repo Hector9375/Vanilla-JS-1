@@ -1,4 +1,4 @@
-let arr = ['오범수','안성민','박누리'];
+let arr = ['Beomsu','Hector','Nullzing'];
 
 console.log(arr);
 /*========================*/
@@ -9,12 +9,12 @@ arr.forEach(console.log);
 
 // 데이터를 리턴하지 않음
 arr.forEach((each)=>{
-    if(each==='안성민'){
-        console.log('성민이 찾았다')
+    if(each==='Hector'){
+        console.log('Found Hector')
     };
 })
 
-// { name:'안성민',number:1 }
+// { name:'Hector',number:1 }
 let members = arr.map((each,index)=>{
     return{"name":each,"number":index}
 });
@@ -25,13 +25,13 @@ let student = members.filter((each)=>{
     // true면 통과
     // false면 필터 ( 제거 )
         console.log(each.name);
-        return each.name !== '오범수';
+        return each.name !== 'Beomsu';
 })
 console.log(student);
 
 // 찾고자하는 데이터 위치
 
-let roomnumber = arr.indexOf('안성민');
+let roomnumber = arr.indexOf('Hector');
 console.log(roomnumber);
 
 // 문자열을 배열로 전환

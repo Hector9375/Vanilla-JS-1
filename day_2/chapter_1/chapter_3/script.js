@@ -20,11 +20,11 @@
     function parseInt(str){
         return Number.parseInt(str)
     }
-    let a = prompt('숫자를 입력하세요.')
+    let a = prompt('Please enter a number.')
         if(isNaN(parseInt(a))){
             alert('nop!')
         }
-    let b = prompt('숫자를 입력하세요.')
+    let b = prompt('Please enter a number.')
         if(isNaN(parseInt(a))||isNaN(parseInt(b))){
             alert('nop!')
         }else{
